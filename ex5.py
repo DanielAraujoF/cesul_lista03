@@ -8,4 +8,4 @@ area = float(input("Insira a area da sala: "))
 qtdDeRejunte = area / 3
 qtdDeArgamassa = area / 5
 
-print("A quantidade de rejunte e argamassa a serem utilizados é, respectivamente:", qtdDeRejunte, "e", qtdDeArgamassa)
+print("A quantidade de rejunte e argamassa a serem utilizados é, respectivamente:", qtdDeRejunte, "e", qtdDeArgamassa) opa
