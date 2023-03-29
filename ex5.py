@@ -3,6 +3,9 @@
 # • Quantos Kg de rejunte serão utilizados para aplicação (considerar 1Kg para 3m2 )
 # • Quantos Kg de argamassa serão utilizados para a aplicação (considerar 1kg por 5m2 )
 
-metros = int(input("Insira o metro quadrado do piso: "))
+area = float(input("Insira a area da sala: "))
 
-rejunte = metro / 3
+qtdDeRejunte = area / 3
+qtdDeArgamassa = area / 5
+
+print("A quantidade de rejunte e argamassa a serem utilizados é, respectivamente:", qtdDeRejunte, "e", qtdDeArgamassa)
