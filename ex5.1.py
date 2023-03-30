@@ -9,3 +9,5 @@ qtdDeRejunte = area / 3
 qtdDeArgamassa = area / 5
 
 print("A quantidade de rejunte e argamassa a serem utilizados é, respectivamente:", qtdDeRejunte, "e", qtdDeArgamassa)
+
+# mesmo assim, não trabalha com excelência, pois estou trabalhando com dois tipos, string e float -> ex5.2
