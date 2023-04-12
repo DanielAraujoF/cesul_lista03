@@ -5,6 +5,10 @@ valorDuplicata = float(input("Valor da duplicata: "))
 diasDeAtraso = int(input("Dias de atraso após prazo limite: "))
 multa = 5
 
-valorTotal = valorDuplicata + ((multa / 100) * diasDeAtraso) * valorDuplicata
+valorMulta = (multa / 100) * valorDuplicata
+totalMulta = valorMulta * diasDeAtraso
+total = valorDuplicata + valorMulta
 
-print(f"O valor da duplicata somado ao valor é R${valorTotal:.2f}")
+print(f"O valor da duplicata somado ao valor é R${total:.2f}")
+
+# converter o tipo da entrada (ex: de string para float) chama se TYPE CASTING

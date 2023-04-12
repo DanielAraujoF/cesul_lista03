@@ -1,16 +1,11 @@
 # 8) Escreva um programa que determine o número de dias e de horas que uma pessoa já viveu.
 # Considere que um mês tem 30 dias.
 
-anoDeHoje = int(input("Em que ano estamos? R: "))
-mesDeHoje = int(input("Em que mês estamos? R: "))
-diaDeHoje = int(input("Em que dia estamos? R: "))
+idadeUser = int(input("Olá, este programa calcula quantos dias e quantas horas você já viveu até o primeiro dia do ano. Qual sua idade:"))
 
-anoDeNasc = int(input("Em que ano você nasceu? R: "))
-mesDeNasc = int(input("Em que mês você nasceu? R: "))
-diaDeNasc = int(input("Em que dia você nasceu? R: "))
+diasVividos = idadeUser * 365
+#porque tem 365 dias no ano
+horasVividas = diasVividos * 24
+#porque tem 24h num dia
 
-idadeDoUser = anoDeHoje - anoDeNasc
-
-
-
-diasVividos = idadeDoUser * 12) * 30)
+print(f"Você já viveu {diasVividos:.2f} dias, e o número de horas que você já viveu é de {horasVividas:.2f}")
